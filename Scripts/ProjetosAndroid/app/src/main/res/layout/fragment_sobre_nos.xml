@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FragmentSobreNos">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentSobreNos_titulo"
+        android:text="Um Pouquinho Sobre Nós"
+        android:scrollbars="vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            app:civ_border="true"
+            app:civ_border_width="1dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@android:color/black"
+            app:civ_shadow_radius="2"
+            android:layout_marginStart="12dp"
+            android:id="@+id/fragmentSobreNos_imagem1"
+            android:layout_gravity="center_vertical"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+
+            android:text="@string/a"
+            tools:text="@string/a"
+            android:gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_width="260dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            app:civ_border="true"
+            app:civ_border_width="1dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@android:color/black"
+            app:civ_shadow_radius="2"
+            android:layout_marginStart="12dp"
+            android:id="@+id/fragmentSobreNos_imagem2"
+            android:layout_gravity="center_vertical"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:text="@string/a"
+            tools:text="@string/a"
+            android:gravity="start"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            app:civ_border="true"
+            app:civ_border_width="1dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@android:color/black"
+            app:civ_shadow_radius="2"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/fragmentSobreNos_imagem3"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+        <TextView
+            android:text="@string/a"
+            tools:text="@string/a"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:hint="DD / MM / AAAA"
+        android:inputType="date"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <EditText
+    android:id="@+id/edtTexto"
+        android:textColorHint="@android:color/darker_gray"
+        android:hint="Escreva aqui o que está sentindo..."
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</EditText>
+</ScrollView>
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnAddEntrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        android:textColor="@android:color/white"
+        app:cornerRadius="10dp"
+        app:fButtonColor="@color/fbutton_color_green_sea"
+        app:shadowEnabled="false" />
+
+</LinearLayout>

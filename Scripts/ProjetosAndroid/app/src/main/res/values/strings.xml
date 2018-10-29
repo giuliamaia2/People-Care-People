@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PCPv1</string>
+    <string name="activityHome_txtOla">PCP, olá </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnSalvar">Salvar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="a">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</string>
+    <string name="b">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</string>
+
+    <!-- EDITAR PERFIL -->
+    <string name="Mudar_Foto"> Mudar foto</string>
+    <string name="Nome">Nome</string>
+    <string name="Apelido"> Apelido</string>
+    <string name="Email">Email </string>
+    <string name="DataDeNasc">Data de Nascimento </string>
+    <string name="Senha">Senha </string>
+    <!-- -->
+
+    <string name="Proximo">Próximo</string>
+    <string name="Pular">Pular</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

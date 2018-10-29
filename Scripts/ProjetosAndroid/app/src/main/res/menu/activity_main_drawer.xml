@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_relatos"
+            android:title="Relatos" />
+        <item
+        android:id="@+id/nav_fórum"
+        android:title="Fórum" />
+        <item
+            android:id="@+id/nav_psicologosAmigos"
+            android:title="Psicólogos amigos" />
+        <item
+            android:id="@+id/nav_psicologosProximos"
+            android:title="Próximos de Você" />
+    </group>
+
+    <item android:title="Sobre">
+        <menu>
+            <item
+                android:id="@+id/nav_depressão"
+                android:title="Depressão" />
+            <item
+                android:id="@+id/nav_sobreNós"
+                android:title="Sobre nós" />
+        </menu>
+    </item>
+
+</menu>

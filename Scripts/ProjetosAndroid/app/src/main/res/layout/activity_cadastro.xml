@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CadastroActivity"
+    android:id="@+id/activityCadastroFundo">
+    <ImageView
+        android:id="@+id/cadastroLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/txt_Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Nome"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        app:met_baseColor="@android:color/white"
+        app:met_primaryColor="@android:color/white"
+        android:importantForAutofill="no"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/txt_Apelido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Apelido"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        app:met_baseColor="@android:color/white"
+        app:met_primaryColor="@android:color/white"
+        android:importantForAutofill="no"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/txt_DataDeNasc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Data de Nascimento"
+        android:inputType="date"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        app:met_baseColor="@android:color/white"
+        app:met_primaryColor="@android:color/white"
+        android:importantForAutofill="no"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/txt_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Email"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        app:met_baseColor="@android:color/white"
+        app:met_primaryColor="@android:color/white"
+        android:importantForAutofill="no"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/txt_Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        app:met_baseColor="@android:color/white"
+        app:met_primaryColor="@android:color/white"
+        android:importantForAutofill="no"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_Cadastrar"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:textSize="18sp"
+        android:text="Cadastrar"
+        android:textColor="@android:color/white"
+        app:cornerRadius="30dp"
+        app:fButtonColor="@android:color/holo_green_dark"
+        app:shadowEnabled="false"/>
+
+</RelativeLayout>
